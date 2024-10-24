@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.field {
+    align-items: center;
+    margin-top : 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding-bottom: 50px;
+} 
+.legend {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.slide-container {
+    align-items: center;
+    position: relative;
+    max-width: 600px;
+    margin : auto;
+    overflow: hidden; 
+}
+.slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.slide img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type=radio] {
+    display: none;
+}
+.button {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+    margin-top:auto;
+}
+.nav-button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: #bcbcbc;
+    border-radius: 100px;
+}
+#slide1:checked ~ .slides {
+    transform: translateX(0%);
+}
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+#slide4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+#slide5:checked ~ .slides {
+    transform: translateX(-400%);
+}
+#slide6:checked ~ .slides {
+    transform: translateX(0%);
+}
+#slide7:checked ~ .slides {
+    transform: translateX(-100%);
+}
+#slide8:checked ~ .slides {
+    transform: translateX(-200%);
+}
+#slide9:checked ~ .slides {
+    transform: translateX(-300%);
+}
+#slide10:checked ~ .slides {
+    transform: translateX(-400%);
+}
+body {
+    background-color: #FAF0E6;
+}
+.navbar {
+    height: 100vh;
+    width: 70px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    overflow: hidden;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+#nav-logo {
+    margin-left: 5px;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 23px;
+    height: 30px;
+}
+.nav-links a img {
+    filter: invert(1);
+    height: 40px;
+    width: auto;
+}
+#nav-img1 {
+    height: 50px;
+}
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 10px;
+}
+.content {
+    margin-left: 60px;
+    padding-left: 20px;
+}
+#Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Logo img{
+    height: 500px;
+    margin-top: 100px;
+}
+.header {
+    text-align: center;
+    font-family: "Nerko One";
+    font-size: 90px;
+}
+.section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+.tb-record {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 0 solid;
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.subhead {
+    font-family: "Pattaya", sans-serif;
+    margin-left: 35px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.in-content {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 20px;
+}
+.subhead2 {
+    font-family: "Pattaya", sans-serif;
+    margin-left: 35px;
+    margin-bottom: -5px;
+    margin-top: 100px;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: auto;
+    margin: auto;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #fff;
+    width: 100%;
+    size: 100px;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: "Pattaya", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+#foot-text {
+    margin-left: 0;
+}
+.foot-icon {
+    width: 70px;
+    height: auto;
+    margin: 0 30px;
+    vertical-align: middle;
+}
+.in-foot {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contect-icon img{
+    text-align: center;
+}
+#myself {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+.legend1 {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    position : relative;
+    width: auto;
+}
+.in-content2 {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+span {
+    font-weight: bold;
+}
+.image {
+    margin: 50px 5px;
+    margin-bottom: -50px;
+    width: 100%;
+    height: auto;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tb-record2 {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 0 solid;
+    width: 100%;
+    margin: 10px 0;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Mystyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<html>
+  <head>
+    <title>My CSTU Story</title>
+    <link rel="icon" href="resources/myicon.png" type="image/png" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="resources/nav_logo.png" id="nav-logo" alt="Logo">
+      <div class="nav-links">
+        <a href="#home" title="หน้าแรก">
+          <img src="resources/home.png">
+        </a>
+        <a href="#record" title="ประวัติส่วนตัว">
+          <img src="resources/medical-record.png">
+        </a>
+        <a href="#video" title="วิดีโอแนะนำตัว">
+          <img src="resources/clapperboard.png" id="nav-img1">
+        </a>
+        <a href="myjourney.html" title="My Journey">
+          <img src="resources/way2.png">
+        </a>
+        <a href="myfuture.html" title="My Future">
+          <img src="resources/forecasting (1).png">
+        </a>
+        <a href="#contact" title="ติดต่อ">
+          <img src="resources/phone.png">
+        </a>
+      </div>
+    </div>
+    <div class="content">
+      <section id="home">
+        <div id="Logo">
+          <img src="resources/MyCSTU no_b.png" alt="Logo">
+        </div>
+        <h1 class="header">WELCOME TO MY CSTU STORY</h1>
+      </section>
+      <section id="record">
+        <table class="tb-record">
+          <tr>
+            <td>
+              <div class="in-content">
+                <h1 class="subhead">About Me</h1>
+                <ul>
+                  <p>ชื่อ : นาย อิทธิพล จับชิ้น</p>
+                  <p>ชื่อเล่น : มิก</p>
+                  <p>อายุ : 18 ปี (ปีนี้ 19)</p>
+                  <p>จบจากโรงเรียนศรีราชา</p>
+                  <p>ปัจจุบันศึกษาอยู่ ชั้นปีที่ 1 มหาวิทยาลัยธรรมศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์(ภาคปกติ)</p>
+                  <p>งานอดิเรก : ฟังเพลง, อ่าน manhwa, เล่นเกม</p>
+                </ul>
+              </div>
+            </td>
+            <td><img src="resources/myself.jpg" alt="Myself" id="myself"></td>
+          </tr>
+        </table>
+        <fieldset class="field">
+          <legend class="legend">โรงเรียนศรีราชา</legend>
+          <div class="slide-container">
+            <input type="radio" id="slide1"name="slides" checked>
+            <input type="radio" id="slide2"name="slides">
+            <input type="radio" id="slide3"name="slides">
+            <input type="radio" id="slide4"name="slides">
+            <input type="radio" id="slide5"name="slides">
+
+            <div class="slides">
+              <div class="slide">
+                <img src="resources/sriracha1.jpg" alt="sriracha1">
+              </div>
+              <div class="slide">
+                <img src="resources/sriracha2.jpg" alt="sriracha2">
+              </div>
+              <div class="slide">
+                <img src="resources/sriracha3.jpg" alt="sriracha3">
+              </div>
+              <div class="slide">
+                <img src="resources/sriracha4.jpg" alt="sriracha4">
+              </div>
+              <div class="slide">
+                <img src="resources/sriracha6.jpg" alt="sriracha5">
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <label for="slide1" class="nav-button">1</label>
+            <label for="slide2" class="nav-button">2</label>
+            <label for="slide3" class="nav-button">3</label>
+            <label for="slide4" class="nav-button">4</label>
+            <label for="slide5" class="nav-button">5</label>
+          </div>
+        </fieldset>
+        <fieldset class="field">
+          <legend class="legend">มหาวิทยาลัยธรรมศาสตร์</legend>
+          <div class="slide-container">
+              <input type="radio" id="slide6"name="slides" checked>
+              <input type="radio" id="slide7"name="slides">
+              <input type="radio" id="slide8"name="slides">
+              <input type="radio" id="slide9"name="slides">
+              <input type="radio" id="slide10"name="slides">
+  
+              <div class="slides">
+                <div class="slide">
+                  <img src="resources/thammasat1.jpg" alt="thammasat1">
+                </div>
+                <div class="slide">
+                  <img src="resources/thammasat4.jpg" alt="thammasat2">
+                </div>
+                <div class="slide">
+                  <img src="resources/thammasat5.jpg" alt="thammasat3">
+                </div>
+                <div class="slide">
+                  <img src="resources/thammasat2.jpg" alt="thammasat4">
+                </div>
+                <div class="slide">
+                  <img src="resources/thammasat3.jpg" alt="thammasat5">
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <label for="slide6" class="nav-button">1</label>
+              <label for="slide7" class="nav-button">2</label>
+              <label for="slide8" class="nav-button">3</label>
+              <label for="slide9" class="nav-button">4</label>
+              <label for="slide10" class="nav-button">5</label>
+            </div>
+          </fieldset>
+      </section>
+      <section id="video">
+        <h1 class="subhead2">Video แนะนำตัว</h1> 
+        <div class="video-container">
+          <video controls>
+            <source src="resources/MyVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video> 
+        </div>    
+      </section>
+      <section id="contact">
+        <footer>
+          <table>
+            <tr>
+              <td class="in-foot">
+                <p id="foot-text">Contact Me</p>
+              </td>
+              <td class="contact-icon">
+                <a href="https://www.instagram.com/mick_itthiphon/" title="ไปที่ IG"><img src="resources/instagram(1).png" alt="Instagram" class="foot-icon"></a>
+                <a href="https://www.facebook.com/profile.php?id=100022361760697" title="ไปที่ Facebook"><img src="resources/facebook.png" alt="Facebook" class="foot-icon"></a>
+                <a href="https://line.me/ti/p/~0611042221" title="ไปที่ Line"><img src="resources/line.png" alt="Line" class="foot-icon"></a>
+              </td>
+          </table>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
