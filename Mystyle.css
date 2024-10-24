@@ -283,3 +283,47 @@ span {
     width: 100%;
     margin: 10px 0;
 }
+@media screen and (max-width: 768px) {
+    #Logo img{
+        height: 400px;
+        margin-top: 150px;
+    }
+    
+    .navbar {
+        height: 70px;
+        width: 100%;
+        position:fixed;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        padding-top: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .nav-links a {
+        padding: 10px 20px;
+        flex-grow: 1;
+        text-align: center;
+    }
+    .nav-links a img {
+        filter: invert(1);
+        height: 30px;
+        width: auto;
+    }
+    #nav-img1 {
+        height: 40px;
+    }
+    .nav-links a:hover {
+        background-color: #575757;
+        border-radius: 10px;
+    }
+}
